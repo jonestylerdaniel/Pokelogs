@@ -12,11 +12,10 @@ export default function App() {
      setCounter(counter + 1)
     }}
     title="btn!!!!!"
-   >
-    I am a {Platform.OS} app!
-   </Button>
+   ></Button>
    <Text>
-    I am a {Platform.OS} app!{counter}
+    I am a {Platform.OS} app and haha!{counter} and we are close to completing
+    the puzzle
    </Text>
   </View>
  )
