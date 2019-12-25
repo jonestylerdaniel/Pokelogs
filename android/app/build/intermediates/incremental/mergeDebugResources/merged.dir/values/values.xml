@@ -328,10 +328,18 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="default_web_client_id" translatable="false">48476436046-gf9ku30p9v450uv6t309mh8bj1mnmd8m.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://pokelogs-6f370.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">48476436046</string>
+    <string name="google_api_key" translatable="false">AIzaSyCI_nrLx0nhUXUIUbyah1nLTMGf-HjSqCk</string>
+    <string name="google_app_id" translatable="false">1:48476436046:android:45cad63404c1405ef4751f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCI_nrLx0nhUXUIUbyah1nLTMGf-HjSqCk</string>
+    <string name="google_storage_bucket" translatable="false">pokelogs-6f370.appspot.com</string>
     <string name="header_description" translatable="false">Heading</string>
     <string name="image_button_description" translatable="false">Button, Image</string>
     <string name="image_description" translatable="false">Image</string>
     <string name="link_description" translatable="false">Link</string>
+    <string name="project_id" translatable="false">pokelogs-6f370</string>
     <string name="search_description" translatable="false">Search Field</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1871,6 +1879,13 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
+    <style name="Widget.CameraView" parent="android:Widget">
+        <item name="android:adjustViewBounds">false</item>
+        <item name="facing">back</item>
+        <item name="aspectRatio">4:3</item>
+        <item name="autoFocus">true</item>
+        <item name="flash">auto</item>
+    </style>
     <style name="Widget.Compat.NotificationActionContainer" parent=""/>
     <style name="Widget.Compat.NotificationActionText" parent=""/>
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
@@ -2546,6 +2561,49 @@
         <!-- Whether to automatically stack the buttons when there is not
              enough space to lay them out side-by-side. -->
         <attr format="boolean" name="allowStacking"/>
+    </declare-styleable>
+    <declare-styleable name="CameraView">
+        <!--
+          Set this to true if you want the CameraView to adjust its bounds to preserve the aspect
+          ratio of its camera preview.
+        -->
+        <attr name="android:adjustViewBounds"/>
+        <!-- Direction the camera faces relative to device screen. -->
+        <attr format="enum" name="facing">
+            <!-- The camera device faces the opposite direction as the device's screen. -->
+            <enum name="back" value="0"/>
+            <!-- The camera device faces the same direction as the device's screen. -->
+            <enum name="front" value="1"/>
+        </attr>
+        <!-- Aspect ratio of camera preview and pictures. -->
+        <attr format="string" name="aspectRatio"/>
+        <!-- Continuous auto focus mode. -->
+        <attr format="boolean" name="autoFocus"/>
+        <!-- The flash mode. -->
+        <attr format="enum" name="flash">
+            <!-- Flash will not be fired. -->
+            <enum name="off" value="0"/>
+            <!--
+              Flash will always be fired during snapshot.
+              The flash may also be fired during preview or auto-focus depending on the driver.
+            -->
+            <enum name="on" value="1"/>
+            <!--
+              Constant emission of light during preview, auto-focus and snapshot.
+              This can also be used for video recording.
+            -->
+            <enum name="torch" value="2"/>
+            <!--
+              Flash will be fired automatically when required.
+              The flash may be fired during preview, auto-focus, or snapshot depending on the
+              driver.
+            -->
+            <enum name="auto" value="3"/>
+            <!--
+              Flash will be fired in red-eye reduction mode.
+            -->
+            <enum name="redEye" value="4"/>
+        </attr>
     </declare-styleable>
     <declare-styleable name="ColorStateListItem">
         <!-- Base color for this state. -->

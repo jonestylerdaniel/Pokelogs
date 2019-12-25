@@ -1,9 +1,10 @@
-import { AppRegistry, Platform } from 'react-native';
-import App from './App';
+import { AppRegistry, Platform } from 'react-native'
+import { App } from './App'
 
-AppRegistry.registerComponent('Pokelogs', () => App);
+AppRegistry.registerComponent('Pokelogs', () => App)
 
 if (Platform.OS === 'web') {
-  const rootTag = document.getElementById('root') || document.getElementById('main');
-  AppRegistry.runApplication('Pokelogs', { rootTag });
+ const rootTag =
+  document.getElementById('root') || document.getElementById('main')
+ AppRegistry.runApplication('Pokelogs', { rootTag })
 }

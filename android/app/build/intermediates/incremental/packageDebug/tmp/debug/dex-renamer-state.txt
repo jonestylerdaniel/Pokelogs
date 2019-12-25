@@ -1,7 +1,10 @@
-#Sun Dec 08 19:34:48 PST 2019
+#Tue Dec 24 20:06:20 PST 2019
+base.2=C\:\\Users\\tylerdj96\\Workspace\\Pokelogs\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.2=classes2.dex
 base.1=C\:\\Users\\tylerdj96\\Workspace\\Pokelogs\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.1=classes.dex
 base.0=C\:\\Users\\tylerdj96\\Workspace\\Pokelogs\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

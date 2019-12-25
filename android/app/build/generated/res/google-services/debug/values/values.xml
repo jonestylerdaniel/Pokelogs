@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">48476436046-gf9ku30p9v450uv6t309mh8bj1mnmd8m.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://pokelogs-6f370.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">48476436046</string>
+    <string name="google_api_key" translatable="false">AIzaSyCI_nrLx0nhUXUIUbyah1nLTMGf-HjSqCk</string>
+    <string name="google_app_id" translatable="false">1:48476436046:android:45cad63404c1405ef4751f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCI_nrLx0nhUXUIUbyah1nLTMGf-HjSqCk</string>
+    <string name="google_storage_bucket" translatable="false">pokelogs-6f370.appspot.com</string>
+    <string name="project_id" translatable="false">pokelogs-6f370</string>
+</resources>

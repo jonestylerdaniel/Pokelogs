@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "48476436046",
+    "firebase_url": "https://pokelogs-6f370.firebaseio.com",
+    "project_id": "pokelogs-6f370",
+    "storage_bucket": "pokelogs-6f370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48476436046:android:6de4fff17ab9d0dcf4751f",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48476436046-gf9ku30p9v450uv6t309mh8bj1mnmd8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI_nrLx0nhUXUIUbyah1nLTMGf-HjSqCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48476436046-gf9ku30p9v450uv6t309mh8bj1mnmd8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48476436046:android:45cad63404c1405ef4751f",
+        "android_client_info": {
+          "package_name": "com.pokelogs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48476436046-gf9ku30p9v450uv6t309mh8bj1mnmd8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI_nrLx0nhUXUIUbyah1nLTMGf-HjSqCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48476436046-gf9ku30p9v450uv6t309mh8bj1mnmd8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
